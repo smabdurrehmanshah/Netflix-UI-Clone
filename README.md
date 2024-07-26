@@ -1,0 +1,2 @@
+# Netflix UI Clone
+<p>I am pleased to announce that, as part of my ongoing frontend development education, I have successfully completed a new project: a Netflix UI clone created using only HTML and CSS.</p>
