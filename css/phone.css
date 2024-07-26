@@ -1,0 +1,106 @@
+#navbar {
+    max-width: 90vw;
+}
+
+#navbar img {
+    height: 30px;
+}
+
+.main-content-btn-inp {
+    flex-direction: column;
+}
+
+.main-content-btn-inp input {
+    padding: 20px 80px 18px 16px;
+}
+.main-content > :nth-child(1) {
+    font-weight: 900;
+    font-size: 32px;
+    text-align: center;
+}
+
+.main-content > :nth-child(2) {
+   font-size: 18px;
+   text-align: center;
+}
+
+.main-content > :nth-child(3) {
+   font-size: 18px;
+   text-align: center;
+}
+
+.first {
+    flex-direction: column;
+}
+
+.secimg img {
+    width: 205px;
+    position: relative;
+    z-index: 1;
+}
+
+.secimg video {
+    position: absolute;
+    top: 50px;
+    right: 45px;
+    width: 180px;
+}
+
+.sec-box {
+    max-width: 300px;
+    left: 40px;
+    bottom: 10px;
+    z-index: 1 ;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.sec-box .img1 {
+    height: 30px;
+    width: 30px;
+}
+
+.sec-box .img2 {
+    height: 20px;
+    width: 10px;
+    
+}
+
+.con :nth-child(1) {
+    font-size: 14px;
+    font-weight: 200px;
+}
+
+.con :nth-child(2) {
+    font-size: 10px;
+    color: blue;
+}
+
+
+.content :nth-child(1) {
+    font-size: 32px;
+}
+
+
+.content :nth-child(2) {
+    font-size: 18px;
+}
+
+.faq h2 {
+    font-size: 32px;
+}
+
+.faq-content > .heading {
+    font-size: 18px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+footer {
+    max-width: 90vw;
+}
+

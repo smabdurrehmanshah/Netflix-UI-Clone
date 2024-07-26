@@ -1,0 +1,287 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.main {
+    background: url("../Assets/Images/background-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 640px;
+   
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+    top: 0px;
+}
+
+#navbar {
+    max-width: 75vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    position: relative;
+    z-index: 1 ;
+}
+
+#navbar img {
+    height: 40px;
+}
+
+#navbar button {
+    background-color: #e50914;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 6px 13px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0);
+}
+
+#navbar button:hover {
+    background-color: #c11119;
+    transition: all 0.3s ease-in 0s ;
+}
+
+.main-content {
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.main-content > :nth-child(1) {
+     font-weight: 900;
+     font-size: 48px;
+     text-align: center;
+}
+
+.main-content > :nth-child(2) {
+    font-size: 24px;
+    text-align: center;
+}
+
+.main-content > :nth-child(3) {
+    font-size: 20px;
+    text-align: center;
+}
+
+.main-content-btn-inp button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #e50914;
+    color: white;
+    padding: 12px 27px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0);
+    border-radius: 5px;
+}
+
+.main-content-btn-inp button:hover {
+    background-color: #c11119;
+}
+
+.main-content-btn-inp input {
+     padding: 20px 170px 18px 16px;;
+     background-color: rgba(0, 100, 255, 0.1);
+     border: 1px solid rgba(255, 255, 255, 0.4);
+     border-radius: 5px;
+     font-size: 14px;
+     color: white;
+     font-weight: 500px;
+}
+
+.main-content-btn-inp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.separation {
+    height: 7px;
+    background-color: grey;
+    opacity: 0.3;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.secimg img {
+    width: 555px;
+    position: relative;
+    z-index: 1;
+}
+
+.secimg video {
+    position: absolute;
+    top: 85px;
+    right: 75px;
+    width: 405px;
+}
+
+.content :nth-child(1) {
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+}
+
+
+.content :nth-child(2) {
+    font-size: 24px;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.secimg {
+    position: relative;
+}
+
+.sec-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    max-width: 550px;
+    position: absolute;
+    bottom: 50px;
+    left: 130px;
+    z-index: 1 ;
+    padding: 5px 10px 4px 0;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.sec-box .img1 {
+    height: 80px;
+    width: 85px;
+    object-fit: contain;
+}
+
+.sec-box .img2 {
+    height: 40px;
+    width: 70px;
+    object-fit: contain;
+}
+
+.con {
+    display: flex;
+    flex-direction: column;
+}
+
+.con :nth-child(1) {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.con :nth-child(2) {
+    font-size: 14px;
+    color: blue;
+}
+
+.faq h2 {
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.faq-box {
+    background-color: #2d2d2d;
+    max-width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 18px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.faq-box:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    transition: all 0.2s;
+}
+
+.faq-content {
+    margin-bottom: 70px;
+}
+
+.faq-content > .heading {
+    font-size: 20px;
+    text-align: center;
+    padding: 50px 0 15px 0;
+}
+
+footer {
+    max-width: 75vw;
+    margin: 65px auto;
+}
+
+footer a {
+    display: block;
+    color: white;
+    opacity: 0.7;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a {
+    margin-top: 30px;
+    align-self: center;
+}
+
+.footer select {
+    margin-top: 30px;
+    padding: 6px 30px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.footer .NP {
+    margin-top: 30px;
+    opacity: 0.7;
+}
+
